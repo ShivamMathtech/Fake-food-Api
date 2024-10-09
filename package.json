@@ -7,11 +7,10 @@
   "name": "foodorder",
   "version": "1.0.0",
   "description": "Provide the routes for handelling the food order api",
-  "main": "server.js",
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon ./src/index.js"
   },
   "author": "Shivam Singh",
   "license": "ISC"
